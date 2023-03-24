@@ -1,0 +1,247 @@
+/* RESET CSS ----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* TIPOGRAFIA ----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/* HEADER ----------------------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.ul-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 5px;
+    margin-right: 5px;
+}
+.li-navbar {
+    padding: 25px 15px;
+}
+.li-navbar:hover {
+    padding: 25px 15px;
+    background-color: lightgray;
+}
+.a-text-decoration-none {
+    text-decoration: none;
+    color: black; 
+}
+.fondo-header {
+    background-image: url(../imagenes/bg.jpg);
+    height: 300px;
+}
+.texto-header {
+    text-align: center;
+    padding: 70px 0;
+    color: white;
+}
+.logo-header {
+    width: 50px;
+    padding: 5px;
+}
+/* QUIENES SOMOS ----------------------------*/
+#quienes-somos {
+    background-color: rgb(244, 244, 244);
+    padding: 20px 0 40px 0;
+}
+.texto-quienes-somos {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.descripcion-quienes-somos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.texto-descripcion-quienes-somos {
+    width: 500px;
+}
+.imagen-quienes-somos {
+    border-radius: 10px;
+    width: 500px;
+}
+/* EQUIPO ----------------------------*/
+#equipo {
+    padding: 20px 0 40px 0;
+    border-top: 0.5px lightgray solid;
+}
+.texto-equipo {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.instructores {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.instructor {
+    border-radius: 10px;
+    width: 150px;
+}
+/* HORARIO ----------------------------*/
+#horario {
+    background-color: rgb(244, 244, 244);
+    padding: 20px 0 40px 0;
+    border-top: 0.5px lightgray solid;
+    text-align: center;
+}
+.texto-horario {
+    padding-bottom: 40px;
+}
+.imagen-horario {
+    width: 900px;
+    border-radius: 10px;
+}
+/* VOLVER ARRIBA ----------------------------*/
+.volver-arriba {
+    text-align: right;
+    background-color: rgb(244, 244, 244);
+}
+.chevron-volver-arriba {
+    width: 20px;
+    padding-right: 15px;
+}
+/* FOOTER ----------------------------*/
+footer {
+    background-image: url(../imagenes/bg-footer.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    color: whitesmoke;
+}
+.texto-footer {
+    align-self: center;
+}
+.social-iconos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* PROGRAMA ----------------------------*/
+.texto-programa {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.container-imagen-programa {
+    display: flex;
+    justify-content: center;
+}
+.imagen-programa {
+    width: 600px;
+}
+.texto-descarga-programa {
+    text-align: center;
+    padding: 20px 0 0;
+}
+/* REGLAS ----------------------------*/
+.imagen-reglas {
+    width: 600px;
+}
+.container-imagen-reglas {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.texto-reglas {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+/* CONTACTO ----------------------------*/
+#contacto {
+    padding: 0 0 40px 0;
+}
+.texto-contacto {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.tabla-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fila-contacto {
+    display: flex;
+    flex-direction: row;
+}
+.celda-contacto {
+    width: 250px;
+    height: 50px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.celda-contacto img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.texto-celda {
+    text-align: center;
+    padding-left: 20px;
+}
+#ubicacion {
+    background-color: rgb(244, 244, 244);
+    padding: 20px 0 40px 0;
+}
+.texto-ubicacion {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.detalle-texto-ubicacion {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: small;
+    color: rgb(106, 104, 104);
+}
+.google-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* BLOG ----------------------------*/
+.texto-blog {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.contenedor-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+.titulo-blog {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 24px 0;
+}
+.contenido-blog {
+    text-align: justify;
+    width: 80%;
+}
+.fecha-blog {
+    font-size: 12px;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+.imagen-blog {
+    margin: 24px 0;
+    width: 50%;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
